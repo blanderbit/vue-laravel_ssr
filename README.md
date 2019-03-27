@@ -15,6 +15,7 @@ git clone git@github.com:spatie/laravel-server-side-rendering-examples.git
 composer install
 yarn
 yarn production
+ln -s /usr/bin/node /usr/local/bin/node 
 ```
 
 If you want to see server side rendering in action, set your `.env` file's `APP_ENV` key to `production`.
