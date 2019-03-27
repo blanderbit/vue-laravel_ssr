@@ -12,10 +12,12 @@ You can install the app locally like you'd install any other Laravel app.
 
 ```bash
 git clone git@github.com:spatie/laravel-server-side-rendering-examples.git
-composer install
+composer installsudo apt-get install libpng-dev
 yarn
 yarn production
 ln -s /usr/bin/node /usr/local/bin/node 
+nvm use 8
+sudo apt-get install libpng-dev -y --no-install-recommends || sudo apt-get install libpng-dev
 ```
 
 If you want to see server side rendering in action, set your `.env` file's `APP_ENV` key to `production`.
